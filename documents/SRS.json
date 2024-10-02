@@ -1,0 +1,442 @@
+{
+  "id": "SRS",
+  "guid": "452f136a-ef30-4a3f-a0dc-67454b6989dc",
+  "name": "Software Requirements Specification",
+  "lastId": 31,
+  "createdOn": "2024-10-02T04:10:31.511Z",
+  "createdBy": {
+    "name": "Tejas",
+    "email": "tejondhale26@gmail.com",
+    "company": "presidency university"
+  },
+  "lastChangedOn": "2024-10-02T04:12:32.446Z",
+  "lastChangedBy": {
+    "name": "Tejas",
+    "email": "tejondhale26@gmail.com",
+    "company": "presidency university"
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "039c6e78-bf8b-4c8a-af74-f4ca5b888e6d",
+      "heading": "Introduction",
+      "helpRef": "8.5",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "2",
+          "guid": "fe1000d8-bb7d-4b6b-907e-73db9a8a34fd",
+          "heading": "Purpose",
+          "helpRef": "9.6.2",
+          "type": "SEC"
+        },
+        {
+          "id": "3",
+          "guid": "40f80006-c5ce-4198-be34-b9e1de19fa96",
+          "heading": "Scope",
+          "helpRef": "9.6.3",
+          "type": "SEC"
+        },
+        {
+          "id": "4",
+          "guid": "b22e182e-734c-4282-a386-d7fe396e9b60",
+          "heading": "Product perspective",
+          "helpRef": "9.6.4",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "5",
+              "guid": "4a8a98bb-c5d8-4fb9-9bf2-d94f8a8aa0b3",
+              "heading": "System interfaces",
+              "helpRef": "9.6.4.1",
+              "type": "SEC"
+            },
+            {
+              "id": "6",
+              "guid": "896d7839-4c07-462c-97b8-3679463194f6",
+              "heading": "User interfaces",
+              "helpRef": "9.6.4.2",
+              "type": "SEC"
+            },
+            {
+              "id": "7",
+              "guid": "9243b4ca-bea6-4624-b000-f1d6868eedb1",
+              "heading": "Hardware interfaces",
+              "helpRef": "9.6.4.3",
+              "type": "SEC"
+            },
+            {
+              "id": "8",
+              "guid": "aa5a8832-e28c-42f2-a703-d753a28b2270",
+              "heading": "Software interfaces",
+              "helpRef": "9.6.4.4",
+              "type": "SEC"
+            },
+            {
+              "id": "9",
+              "guid": "7df10a9d-90b5-4425-8ae1-111d4a477a9d",
+              "heading": "Communications interfaces",
+              "helpRef": "9.6.4.5",
+              "type": "SEC"
+            },
+            {
+              "id": "10",
+              "guid": "5c5c18ae-fadf-4dce-8bd0-d426f303e511",
+              "heading": "Memory constraints",
+              "helpRef": "9.6.4.6",
+              "type": "SEC"
+            },
+            {
+              "id": "11",
+              "guid": "b6cbe3ec-500b-4b55-bb44-05a4a40db623",
+              "heading": "Operations",
+              "helpRef": "9.6.4.7",
+              "type": "SEC"
+            },
+            {
+              "id": "12",
+              "guid": "55bab8ac-9fba-4adf-9c5e-cd3deb4b6b17",
+              "heading": "Site adaptation requirements",
+              "helpRef": "9.6.4.8",
+              "type": "SEC"
+            },
+            {
+              "id": "13",
+              "guid": "3cd8ef34-9439-47e9-a59c-99cec0b07e47",
+              "heading": "Interfaces with  services",
+              "helpRef": "9.6.4.9",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "7f6acbc9-3b3e-4e93-bd28-4f249789d17c",
+          "heading": "Product functions",
+          "helpRef": "9.6.5",
+          "type": "SEC"
+        },
+        {
+          "id": "15",
+          "guid": "60272ce8-5122-4ebd-87b8-3e76b9410117",
+          "heading": "User  characteristics",
+          "helpRef": "9.6.6",
+          "type": "SEC"
+        },
+        {
+          "id": "16",
+          "guid": "af91e1b6-94e6-46eb-af81-d7e55c8551a0",
+          "heading": "Limitations",
+          "helpRef": "9.6.7",
+          "type": "SEC"
+        },
+        {
+          "id": "17",
+          "guid": "9e5ab00a-12b4-4ba3-a286-57b88c3747dd",
+          "heading": "Assumptions and dependencies",
+          "helpRef": "9.6.8",
+          "type": "SEC"
+        },
+        {
+          "id": "18",
+          "guid": "b8d57eb9-b195-42bd-8003-caa42097a989",
+          "heading": "Definitions",
+          "helpRef": "9.2.3",
+          "type": "SEC"
+        },
+        {
+          "id": "19",
+          "guid": "d280ed44-519e-4fe4-9bec-9d8e53601f43",
+          "heading": "Acronyms and abbreviations",
+          "helpRef": "9.2.5",
+          "type": "SEC"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "guid": "e2344cbc-1fd9-486f-9a67-4c3ec594ec33",
+      "heading": "Requirements",
+      "helpRef": "9.6.10",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "21",
+          "guid": "99f60f41-5dab-42dd-bbd2-95a2196745f2",
+          "heading": "External interfaces",
+          "helpRef": "9.6.11",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "type": "SEC"
+              },
+              "changedBy": {
+                "company": "presidency university",
+                "email": "tejondhale26@gmail.com",
+                "name": "Tejas"
+              },
+              "changedOn": "2024-10-02T04:12:12.124Z"
+            },
+            {
+              "attributesChanged": {
+                "type": "FR"
+              },
+              "changedBy": {
+                "company": "presidency university",
+                "email": "tejondhale26@gmail.com",
+                "name": "Tejas"
+              },
+              "changedOn": "2024-10-02T04:12:29.133Z"
+            },
+            {
+              "attributesChanged": {
+                "type": null
+              },
+              "changedBy": {
+                "company": "presidency university",
+                "email": "tejondhale26@gmail.com",
+                "name": "Tejas"
+              },
+              "changedOn": "2024-10-02T04:12:32.446Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "115dc5d9-5d9a-4305-ad28-6d8a3fb1c210",
+          "heading": "Functions",
+          "helpRef": "9.6.12",
+          "type": "SEC"
+        },
+        {
+          "id": "23",
+          "guid": "828c97ef-0c29-4a47-abbb-855d8297eedb",
+          "heading": "Usability requirements",
+          "helpRef": "9.6.13",
+          "type": "SEC"
+        },
+        {
+          "id": "24",
+          "guid": "7ba5ad3b-dcc1-400e-9e73-64da22190f45",
+          "heading": "Performance requirements",
+          "helpRef": "9.6.14",
+          "type": "SEC"
+        },
+        {
+          "id": "25",
+          "guid": "8f5c5ad7-a914-47c7-9044-6e18a927ca0b",
+          "heading": "Logical database requirements",
+          "helpRef": "9.6.15",
+          "type": "SEC"
+        },
+        {
+          "id": "26",
+          "guid": "70e8232b-89d1-49e5-b543-23747a22b1ac",
+          "heading": "Design constraints",
+          "helpRef": "9.6.16",
+          "type": "SEC"
+        },
+        {
+          "id": "27",
+          "guid": "ce57a83f-ed59-4165-80b2-2a3a0cd54ad9",
+          "heading": "Standards compliance",
+          "helpRef": "9.6.17",
+          "type": "SEC"
+        },
+        {
+          "id": "28",
+          "guid": "179e07ef-7ab8-4e0b-817a-32c5ef293536",
+          "heading": "Software system attributes",
+          "helpRef": "9.6.18",
+          "type": "SEC"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "guid": "db624f9d-5d5b-4505-8a2c-6ffdbac3c625",
+      "heading": "Verification",
+      "helpRef": "9.6.19",
+      "type": "SEC"
+    },
+    {
+      "id": "30",
+      "guid": "3b416b45-0661-44e3-ad22-3cb1e3aac723",
+      "heading": "Supporting information",
+      "helpRef": "9.6.20",
+      "type": "SEC"
+    },
+    {
+      "id": "31",
+      "guid": "11cb5e1a-2ea0-4d2e-be49-38ebcf773022",
+      "heading": "References",
+      "helpRef": "9.2.4",
+      "type": "SEC"
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Ver. Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "T",
+          "label": "Test"
+        },
+        {
+          "key": "D",
+          "label": "Demonstration"
+        },
+        {
+          "key": "I",
+          "label": "Inspection"
+        },
+        {
+          "key": "A",
+          "label": "Analysis"
+        }
+      ]
+    }
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 77
+        },
+        {
+          "columnId": "type",
+          "width": 97
+        },
+        {
+          "columnId": "description",
+          "width": 372
+        },
+        {
+          "columnId": "source",
+          "width": 150
+        },
+        {
+          "columnId": "rationale",
+          "width": 150
+        },
+        {
+          "columnId": "priority",
+          "width": 96
+        },
+        {
+          "columnId": "status",
+          "width": 86
+        },
+        {
+          "columnId": "verMethod",
+          "width": 105
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.17"
+  }
+}
